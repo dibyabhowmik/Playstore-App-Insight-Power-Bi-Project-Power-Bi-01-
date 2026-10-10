@@ -1,8 +1,11 @@
-Project Overview
+**Project Overview**
+
+
 This project focuses on analyzing Google Play Store applications using Power BI. The objective was to explore app popularity, ratings, user engagement, monetization, app characteristics, and update trends through an interactive multi-page dashboard.
 The dataset contains information about apps, categories, ratings, reviews, installs, size, type, price, content rating, genres, and last updated date.
 
-The dashboard is divided into four sections:
+**The dashboard is divided into four sections:**
+
 Executive Overview
 Rating and User Engagement
 App Characteristics and Monetization
@@ -10,7 +13,9 @@ Advanced Insights and Trends
 
 Interactive slicers for Category and Type (Free/Paid) allow users to explore the analysis based on different app segments.
 
-Objectives:
+**Objectives:**
+
+
 The main objectives of this project were:
 Analyze the overall distribution of apps across categories and content ratings.
 Compare free and paid applications.
@@ -27,7 +32,9 @@ Power Query – Data cleaning and transformation
 DAX – Measures and calculations
 Microsoft Excel/CSV – Dataset and initial data handling
 Data Analysis Process
-1. Data Collection:
+
+**1. Data Collection:**
+
 The Google Play Store dataset was imported into Power BI for analysis.
 
 The dataset contains fields such as:
@@ -44,7 +51,9 @@ Genres
 Last Updated
 Current Version
 Android Version
-2. Data Cleaning:
+
+**2. Data Cleaning:**
+
 The dataset was inspected for missing values, inconsistent formats, duplicate app records, and invalid observations.
 The following transformations were performed:
 Converted reviews and installs into numerical formats.
@@ -54,7 +63,8 @@ Handled missing rating values.
 Identified non-numeric size values such as "Varies with device".
 Checked duplicate app records.
 Identified an invalid rating value outside the normal 0–5 rating scale.
-3. Data Transformation:
+
+**3. Data Transformation:**
 
 Additional analytical fields and measures were created to support:
 App counts
@@ -66,14 +76,18 @@ Average app size
 Update-year analysis
 Install ranges
 Free vs Paid comparisons
-4. Dashboard Development:
+
+**4. Dashboard Development:**
+
 Four Power BI dashboard pages were created to present the analysis from different perspectives.
 
-Dashboard 1: Executive Overview
+**Dashboard 1: Executive Overview**
 
 The Executive Overview provides a high-level summary of the Google Play Store dataset.
 
-The dashboard reports:
+**The dashboard reports:**
+
+
 8,180 apps
 Average rating: 4.17
 Average price: 1.03
@@ -88,12 +102,13 @@ The category-level analysis also highlights strong install volumes in categories
 
 The yearly update trend shows a very large increase in app updates in 2018, with more than 5K apps updated during that year.
 
-Dashboard 2: Rating and User Engagement:
+**Dashboard 2: Rating and User Engagement:**
 
 This section focuses on the relationship between app ratings, reviews, installs, and user engagement.
 The average rating across different content-rating groups remains relatively close, generally around 4.1–4.3.
 Free apps have significantly higher review volumes than paid apps. This is consistent with the much larger number of free applications and their broader user reach.
-The dashboard also identifies highly reviewed applications such as:
+
+**The dashboard also identifies highly reviewed applications such as:**
 
 Clash of Clans
 Clash Royale
@@ -109,7 +124,7 @@ The category analysis shows relatively high average ratings for categories such 
 
 The installs-versus-rating visualization indicates that highly installed apps generally have ratings in the higher range, but there is no simple direct relationship between rating and install volume. High popularity appears to depend on several factors beyond rating alone.
 
-Dashboard 3: App Characteristics and Monetization
+**Dashboard 3: App Characteristics and Monetization**
 
 This dashboard focuses on app size, update activity, content rating, genres, installs, and pricing.
 
@@ -129,7 +144,7 @@ The app-size versus installs visualization shows that most apps are concentrated
 
 The paid-app price versus rating analysis shows a wide range of prices, but the visualization does not indicate a clear relationship where higher prices consistently lead to higher ratings.
 
-Dashboard 4: Advanced Insights and Trends
+**Dashboard 4: Advanced Insights and Trends**
 
 The Advanced Insights section focuses on deeper relationships between reviews, installs, ratings, and genres.
 
@@ -141,7 +156,8 @@ The average versus median rating comparison by genre provides additional context
 
 The dashboard also provides detailed views of highly reviewed and highly rated applications for further investigation.
 
-Key Insights
+**Key Insights**
+
 
 Some of the major insights from the analysis are:
 
